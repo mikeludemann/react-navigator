@@ -11,19 +11,19 @@ function App() {
 				<img src={logo} className="App-logo" alt="logo" />
 			</header>
 			<section className="content">
-        <Navigator>
-          <BrowserVersion></BrowserVersion>
-          <BrowserCodeName></BrowserCodeName>
-          <BrowserName></BrowserName>
-          <BrowserCookieEnabled></BrowserCookieEnabled>
-          <BrowserLanguage></BrowserLanguage>
-          <BrowserOnline></BrowserOnline>
-          <BrowserPlatform></BrowserPlatform>
-          <BrowserProduct></BrowserProduct>
-          <BrowserGeolocation></BrowserGeolocation>
-          <BrowserUserAgent></BrowserUserAgent>
-          <BrowserContains></BrowserContains>
-        </Navigator>
+				<Navigator>
+					<BrowserVersion></BrowserVersion>
+					<BrowserCodeName></BrowserCodeName>
+					<BrowserName></BrowserName>
+					<BrowserCookieEnabled></BrowserCookieEnabled>
+					<BrowserLanguage></BrowserLanguage>
+					<BrowserOnline></BrowserOnline>
+					<BrowserPlatform></BrowserPlatform>
+					<BrowserProduct></BrowserProduct>
+					<BrowserGeolocation></BrowserGeolocation>
+					<BrowserUserAgent></BrowserUserAgent>
+					<BrowserContains></BrowserContains>
+				</Navigator>
 			</section>
 			<footer className="App-footer">
 				(c) Copyright - Mike Ludemann
